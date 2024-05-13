@@ -1,0 +1,11 @@
+.open-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 93px;
+}
+
+.open-div h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1em;
+}

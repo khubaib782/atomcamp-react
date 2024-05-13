@@ -1,0 +1,49 @@
+.scaleup-div {
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 58px;
+}
+
+.carousel-card {
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #bdbdbd;
+  border-radius: 10px 10px 10px 10px;
+  padding: 2px 2px 2px 2px;
+  cursor: pointer;
+}
+
+.card-head-div {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card-head-div h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.date-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date-div ul {
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+.price {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 1px;
+  font-size: 18px;
+}
+
+.carousel-two {
+  display: flex;
+  gap: 10px;
+  padding: 10px 75px 0px 75px;
+}

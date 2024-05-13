@@ -1,0 +1,96 @@
+.footer-row {
+  background-color: #002333;
+  color: white;
+  font-family: "Poppins", Sans-serif;
+}
+.div-adj {
+  padding: 10px 30px 10px 10px;
+  margin-bottom: 1.75rem;
+}
+
+.cols-adj {
+  padding-left: 5%;
+  padding-top: 6%;
+}
+
+.div-adj img {
+  /* min-width: 120px; */
+}
+.ul-adj {
+  flex-direction: column;
+  align-items: center;
+}
+
+.ul-adj a {
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.ul-adj a:hover {
+  color: #99d930;
+}
+
+.nav-div {
+  padding-top: 50px;
+}
+
+.nav-div nav {
+  display: block;
+}
+
+.nav-div li {
+  padding-bottom: 20px;
+}
+
+.last-div {
+  padding-top: 74px;
+}
+.last-col-adj {
+  padding-top: 6%;
+}
+
+.last-div p {
+  text-align: center;
+}
+
+.email-div {
+  width: 95%;
+}
+.sub-btn {
+  background-color: #99d930;
+  color: white;
+  margin: 40px 0px 120px 136px;
+  border-radius: 5px 5px 5px 5px;
+  transition: transform 0.3s ease;
+}
+
+.sub-btn:hover {
+  transform: scale(0.95);
+  color: white;
+}
+
+.divider {
+  color: #99d930;
+  /* width: 2px; */
+  height: 2px;
+  width: 100%;
+  background-color: #99d930;
+  margin: 0 10px;
+}
+.contact-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.social-icons {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+
+.social-li {
+  margin-right: 10px;
+  width: 40px;
+}

@@ -1,0 +1,77 @@
+.person-cards {
+  padding: 20px;
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+  margin-right: 10px;
+  padding-top: 0;
+  text-align: center;
+}
+
+.person-cards:hover {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.person-cards img {
+  max-width: 90%;
+  margin-bottom: 51px;
+  transition: transform 0.3s ease-in-out;
+  margin-top: 14px;
+}
+
+.person-cards:hover img {
+  transform: scale(1.1);
+}
+
+.person-cards h3:hover {
+  color: rgba(0, 0, 255, 0.619);
+}
+
+.person-cards-row {
+  margin: 0px 30px 70px 30px;
+}
+
+.person-cards h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.person-cards p {
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 23px;
+}
+
+.btn-wraper {
+  margin-bottom: 30px;
+}
+
+.btn-wraper a {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+  .person-cards-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .person-cards {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 548px) {
+  .person-cards h3 {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .person-cards h3 {
+    font-size: 13px;
+  }
+}

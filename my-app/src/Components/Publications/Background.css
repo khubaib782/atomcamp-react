@@ -1,0 +1,43 @@
+.background-color {
+  background-color: #002333;
+  height: 74vh;
+  margin-top: 20px;
+  /* font-family: "Poppins", sans-serif; */
+}
+.pub-head {
+  margin-top: 186px;
+  margin-left: 67px;
+}
+
+.pub-head h1 {
+  color: #ffffff;
+  margin: 20px 0px 20px 0px;
+  font-size: 2.75rem;
+  font-weight: 600;
+  line-height: 57px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.atom-head {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 648px) {
+  .pub-head h1 {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 364px) {
+  .pub-head h1 {
+    font-size: 1.7rem;
+  }
+  /* .pub-head {
+    margin-top: 134px;
+    margin-left: 40px;
+  } */
+}

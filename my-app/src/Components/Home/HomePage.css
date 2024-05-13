@@ -1,0 +1,60 @@
+.main-banner {
+  background-image: url("https://www.atomcamp.com/wp-content/uploads/2023/12/main-banner.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 143vh;
+  background-attachment: fixed;
+}
+
+.data-div {
+  color: #fff;
+  padding-left: 55px;
+  padding-top: 290px;
+}
+
+.data-div h1 {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.data-div span {
+  font-size: 50px;
+  color: #99d930;
+}
+
+.start-btn {
+  font-size: 18px;
+  font-weight: 600;
+  fill: #f5f5f5;
+  color: #f5f5f5;
+  background-color: #99d93000;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #99d930;
+  border-radius: 50px 50px 50px 50px;
+  padding: 20px 30px 20px 40px;
+}
+
+.start-btn:hover {
+  background-color: #99d930;
+}
+
+.job-text {
+  color: #99d930;
+  font-weight: 600;
+  text-align: center;
+  font-size: 19px;
+  line-height: 1;
+}
+
+.start-btn-div {
+  margin: 24px 0px 0px 57px;
+}
+
+.job-countup-div {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+}

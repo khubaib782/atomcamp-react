@@ -1,0 +1,112 @@
+.background-theme {
+  background-color: #002333;
+  height: 74vh;
+  margin-top: 20px;
+}
+
+.learn-text {
+  font-size: 36px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.div-left-text p {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.div-left-text {
+  padding: 100px 0px 0px 55px;
+}
+
+.name-div {
+  color: #ffffff;
+}
+
+.name-div h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.linkedin-div {
+  color: white;
+  text-align: center;
+}
+
+.people-container {
+  display: flex;
+  padding: 84px;
+  gap: 70px;
+}
+
+.image-div img {
+  border-radius: 50%;
+  border: 3px solid #99d930;
+}
+
+.background-people {
+  background-color: #242424;
+  height: 150vh;
+}
+
+.word-div h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.word-div {
+  padding: 60px;
+}
+
+.candidate-div img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.candidate-div {
+  display: flex;
+}
+
+.white-div {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 500px;
+  cursor: pointer;
+  border-width: 5px 0px 0px 0px;
+  border-radius: 10px;
+  border-color: #99d930;
+}
+
+.white-cards-container {
+  display: flex;
+  padding: 73px;
+}
+
+.candidate-div h5 {
+  font-size: 19.5px;
+  font-weight: 700;
+}
+
+.candidate-div p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.title-div h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.p-card-div p {
+  font-size: 20px;
+  font-weight: 600;
+}

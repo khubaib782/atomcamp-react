@@ -1,0 +1,12 @@
+.header-adj {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #3a3a3a;
+  padding: 18px 0px 0px 18px;
+}
+@media only screen and (max-width: 576px) {
+  .header-adj {
+    padding-left: 0;
+  }
+}

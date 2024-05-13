@@ -1,0 +1,14 @@
+.deliver-div h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.deliver-div {
+  padding: 100px 20px 0px 58px;
+}
+
+.logos-col {
+  display: flex;
+  gap: 30px;
+  padding-top: 130px;
+}

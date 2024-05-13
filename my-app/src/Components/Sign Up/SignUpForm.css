@@ -1,0 +1,51 @@
+.dot {
+  color: red;
+}
+.signup-form-adj input {
+  width: 400px;
+  height: calc(2rem + 0.75rem + 2px);
+  border: 2px solid #a1a1a1;
+}
+
+.registration-login-link a {
+  color: black;
+  text-decoration: underline;
+}
+
+.registration-login-link a:hover {
+  text-decoration: none;
+}
+
+.sign-col-adj {
+  padding: 16px 0px 0px 120px;
+}
+
+.register-btn {
+  color: #212529;
+  background-color: white;
+  border: 2px solid #a1a1a1;
+  width: 400px;
+  margin: 40px 0px 120px 0px;
+}
+.register-btn:hover {
+  background-color: #002333;
+  color: white;
+}
+@media only screen and (max-width: 767px) {
+  .sign-col-adj {
+    padding: 20px 0px 0px 0px !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .sign-col-adj {
+    margin-left: 3%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .sign-col-adj input {
+    width: 96%;
+  }
+  .register-btn {
+    width: 96%;
+  }
+}
